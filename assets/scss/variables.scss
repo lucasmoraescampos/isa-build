@@ -1,0 +1,22 @@
+:root {
+    --background-linear-gradient: linear-gradient(135deg, var(--bs-primary) 0%, var(--bs-secondary) 100%);
+    --text-linear-gradient: -webkit-linear-gradient(var(--bs-primary), var(--bs-secondary));
+    --tab-group-height: 60px;
+    --toolbar-mobile-height: 0px;
+    --toolbar-height: 85px;
+    --event-img-size: 40px;
+}
+
+@media (max-width: 1230px) {
+    :root {
+        --tab-group-height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --toolbar-mobile-height: 100.5px;
+        --toolbar-height: 0px;
+        --event-img-size: 60px;
+    }
+}

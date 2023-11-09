@@ -1,0 +1,523 @@
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-Bold.eot");
+    src: url("../fonts/AaltoSansPro-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-Bold.woff2") format("woff2"), url("../fonts/AaltoSansPro-Bold.woff") format("woff"),
+        url("../fonts/AaltoSansPro-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt";
+    src: url("../fonts/AaltoSansEssentialAlt-Light.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-Light.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-Light.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt Bd It";
+    src: url("../fonts/AaltoSansEssentialAlt-BoldIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-BoldIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-BoldIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-BoldIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-BoldIt.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt";
+    src: url("../fonts/AaltoSansEssentialAlt-Regular.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-Regular.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-Regular.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro Bold It";
+    src: url("../fonts/AaltoSansPro-BoldIt.eot");
+    src: url("../fonts/AaltoSansPro-BoldIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-BoldIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-BoldIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-BoldIt.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt UlLt";
+    src: url("../fonts/AaltoSansEssentialAlt-UltraLight.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-UltraLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-UltraLight.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-UltraLight.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-UltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro UltraLight It";
+    src: url("../fonts/AaltoSansPro-UltraLightIt.eot");
+    src: url("../fonts/AaltoSansPro-UltraLightIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-UltraLightIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-UltraLightIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-UltraLightIt.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt";
+    src: url("../fonts/AaltoSansEssentialAlt-Bold.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-Bold.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-Bold.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt Md It";
+    src: url("../fonts/AaltoSansEssentialAlt-MediumIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-MediumIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-MediumIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-MediumIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-MediumIt.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential UltraLt It";
+    src: url("../fonts/AaltoSansEssential-UltraLightIt.eot");
+    src: url("../fonts/AaltoSansEssential-UltraLightIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-UltraLightIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-UltraLightIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-UltraLightIt.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-Black.eot");
+    src: url("../fonts/AaltoSansPro-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-Black.woff2") format("woff2"), url("../fonts/AaltoSansPro-Black.woff") format("woff"),
+        url("../fonts/AaltoSansPro-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential SmBold It";
+    src: url("../fonts/AaltoSansEssential-SemiBoldIt.eot");
+    src: url("../fonts/AaltoSansEssential-SemiBoldIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-SemiBoldIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-SemiBoldIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-SemiBoldIt.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt Bl It";
+    src: url("../fonts/AaltoSansEssentialAlt-BlackIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-BlackIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-BlackIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-BlackIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-BlackIt.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro It";
+    src: url("../fonts/AaltoSansPro-RegularIt.eot");
+    src: url("../fonts/AaltoSansPro-RegularIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-RegularIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-RegularIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-RegularIt.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential It";
+    src: url("../fonts/AaltoSansEssential-RegularIt.eot");
+    src: url("../fonts/AaltoSansEssential-RegularIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-RegularIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-RegularIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-RegularIt.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt UlLtIt";
+    src: url("../fonts/AaltoSansEssentialAlt-UltraLightIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-UltraLightIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-UltraLightIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-UltraLightIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-UltraLightIt.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-UltraLight.eot");
+    src: url("../fonts/AaltoSansEssential-UltraLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-UltraLight.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-UltraLight.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-UltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt It";
+    src: url("../fonts/AaltoSansEssentialAlt-RegularIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-RegularIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-RegularIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-RegularIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-RegularIt.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Medium It";
+    src: url("../fonts/AaltoSansEssential-MediumIt.eot");
+    src: url("../fonts/AaltoSansEssential-MediumIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-MediumIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-MediumIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-MediumIt.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-Medium.eot");
+    src: url("../fonts/AaltoSansPro-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-Medium.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-Medium.woff") format("woff"),
+        url("../fonts/AaltoSansPro-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro Black It";
+    src: url("../fonts/AaltoSansPro-BlackIt.eot");
+    src: url("../fonts/AaltoSansPro-BlackIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-BlackIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-BlackIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-BlackIt.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt Lt It";
+    src: url("../fonts/AaltoSansEssentialAlt-LightIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-LightIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-LightIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-LightIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-LightIt.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-Light.eot");
+    src: url("../fonts/AaltoSansPro-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-Light.woff2") format("woff2"), url("../fonts/AaltoSansPro-Light.woff") format("woff"),
+        url("../fonts/AaltoSansPro-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-Light.eot");
+    src: url("../fonts/AaltoSansEssential-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-Light.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-Light.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-Thin.eot");
+    src: url("../fonts/AaltoSansEssential-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-Thin.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-Thin.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro SemiBold It";
+    src: url("../fonts/AaltoSansPro-SemiBoldIt.eot");
+    src: url("../fonts/AaltoSansPro-SemiBoldIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-SemiBoldIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-SemiBoldIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-SemiBoldIt.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-Medium.eot");
+    src: url("../fonts/AaltoSansEssential-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-Medium.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-Medium.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Black It";
+    src: url("../fonts/AaltoSansEssential-BlackIt.eot");
+    src: url("../fonts/AaltoSansEssential-BlackIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-BlackIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-BlackIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-BlackIt.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt";
+    src: url("../fonts/AaltoSansEssentialAlt-Medium.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-Medium.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-Medium.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-Bold.eot");
+    src: url("../fonts/AaltoSansEssential-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-Bold.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-Bold.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-Regular.eot");
+    src: url("../fonts/AaltoSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-Regular.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-Regular.woff") format("woff"),
+        url("../fonts/AaltoSansPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-Black.eot");
+    src: url("../fonts/AaltoSansEssential-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-Black.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-Black.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-Thin.eot");
+    src: url("../fonts/AaltoSansPro-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-Thin.woff2") format("woff2"), url("../fonts/AaltoSansPro-Thin.woff") format("woff"),
+        url("../fonts/AaltoSansPro-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-Regular.eot");
+    src: url("../fonts/AaltoSansEssential-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-Regular.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-Regular.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt SmBdIt";
+    src: url("../fonts/AaltoSansEssentialAlt-SemiBoldIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-SemiBoldIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-SemiBoldIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-SemiBoldIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-SemiBoldIt.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro Light It";
+    src: url("../fonts/AaltoSansPro-LightIt.eot");
+    src: url("../fonts/AaltoSansPro-LightIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-LightIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-LightIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-LightIt.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Light It";
+    src: url("../fonts/AaltoSansEssential-LightIt.eot");
+    src: url("../fonts/AaltoSansEssential-LightIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-LightIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-LightIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-LightIt.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential";
+    src: url("../fonts/AaltoSansEssential-SemiBold.eot");
+    src: url("../fonts/AaltoSansEssential-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-SemiBold.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-SemiBold.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-UltraLight.eot");
+    src: url("../fonts/AaltoSansPro-UltraLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-UltraLight.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-UltraLight.woff") format("woff"),
+        url("../fonts/AaltoSansPro-UltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt ThinIt";
+    src: url("../fonts/AaltoSansEssentialAlt-ThinIt.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-ThinIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-ThinIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-ThinIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-ThinIt.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Bold It";
+    src: url("../fonts/AaltoSansEssential-BoldIt.eot");
+    src: url("../fonts/AaltoSansEssential-BoldIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-BoldIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-BoldIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-BoldIt.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt";
+    src: url("../fonts/AaltoSansEssentialAlt-Thin.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-Thin.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-Thin.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro Medium It";
+    src: url("../fonts/AaltoSansPro-MediumIt.eot");
+    src: url("../fonts/AaltoSansPro-MediumIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-MediumIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-MediumIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-MediumIt.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt";
+    src: url("../fonts/AaltoSansEssentialAlt-Black.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-Black.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-Black.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Alt SmBold";
+    src: url("../fonts/AaltoSansEssentialAlt-SemiBold.eot");
+    src: url("../fonts/AaltoSansEssentialAlt-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssentialAlt-SemiBold.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssentialAlt-SemiBold.woff") format("woff"),
+        url("../fonts/AaltoSansEssentialAlt-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro";
+    src: url("../fonts/AaltoSansPro-SemiBold.eot");
+    src: url("../fonts/AaltoSansPro-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-SemiBold.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-SemiBold.woff") format("woff"),
+        url("../fonts/AaltoSansPro-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aalto Sans Pro Thin It";
+    src: url("../fonts/AaltoSansPro-ThinIt.eot");
+    src: url("../fonts/AaltoSansPro-ThinIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansPro-ThinIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansPro-ThinIt.woff") format("woff"),
+        url("../fonts/AaltoSansPro-ThinIt.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aalto Sans Essential Thin It";
+    src: url("../fonts/AaltoSansEssential-ThinIt.eot");
+    src: url("../fonts/AaltoSansEssential-ThinIt.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/AaltoSansEssential-ThinIt.woff2") format("woff2"),
+        url("../fonts/AaltoSansEssential-ThinIt.woff") format("woff"),
+        url("../fonts/AaltoSansEssential-ThinIt.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}

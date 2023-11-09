@@ -1,0 +1,30 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$font-family-sans-serif: "Aalto Sans Pro";
+
+$primary: #425BFF;
+$secondary: #9921FF;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+$background: #F5F6FA;
+
+$btn-border-radius: 25px;
+$btn-border-radius-lg: 25px;
+$input-border-radius: 25px;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "background": $background
+);

@@ -1,0 +1,116 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/material/theming';
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Inter, serif'
+);
+
+@include mat-core($custom-typography);
+
+$primary-map: (
+  50 : #e8ebff,
+  100 : #c6ceff,
+  200 : #a1adff,
+  300 : #7b8cff,
+  400 : #5e74ff,
+  500 : #425bff,
+  600 : #3c53ff,
+  700 : #3349ff,
+  800 : #2b40ff,
+  900 : #1d2fff,
+  A100 : #ffffff,
+  A200 : #ffffff,
+  A400 : #ced1ff,
+  A700 : #b4b9ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$accent-map: (
+  50: #e9e9e9,
+  100: #c7c7c7,
+  200: #a2a2a2,
+  300: #7c7c7c,
+  400: #606060,
+  500: #444444,
+  600: #3e3e3e,
+  700: #353535,
+  800: #2d2d2d,
+  900: #1f1f1f,
+  A100: #f07a7a,
+  A200: #eb4c4c,
+  A400: #ff0505,
+  A700: #eb0000,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #ffffff,
+    A400: #ffffff,
+    A700: #ffffff)
+);
+
+$warn-map: (
+  50: #fde0e0,
+  100: #f9b3b3,
+  200: #f58080,
+  300: #f14d4d,
+  400: #ee2626,
+  500: #eb0000,
+  600: #e90000,
+  700: #e50000,
+  800: #e20000,
+  900: #dd0000,
+  A100: #ffffff,
+  A200: #ffd1d1,
+  A400: #ff9e9e,
+  A700: #ff8585,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000
+  )
+);
+
+// Convert maps into 'palettes'
+$primary-palette: mat-palette($primary-map);
+$accent-palette: mat-palette($accent-map);
+$warn-palette: mat-palette($warn-map);
+
+// Create 'theme' from palettes
+$light-theme: mat-light-theme($primary-palette, $accent-palette, $warn-palette);
+
+@include angular-material-theme($light-theme);
